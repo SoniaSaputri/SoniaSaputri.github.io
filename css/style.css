@@ -1,0 +1,256 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.container .header h2 {
+  background-color: darkgray;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container .header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .header nav ul li {
+  list-style: none;
+}
+
+.container .header nav ul li a {
+  text-decoration: none;
+}
+
+.container .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .main .content {
+  width: 70%;
+}
+
+.container .main .content h2 {
+  margin-top: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.container .main .content p {
+  margin-top: 5px;
+}
+
+.container .main .aside {
+  width: 28%;
+}
+
+.container .main .aside h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container .main .aside img {
+  margin-right: 10px;
+  float: left;
+  margin-top: 3px;
+  width: 30%;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer p {
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main .content {
+    width: 70%;
+  }
+  .main .content h2 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .main .content p {
+    font-size: 3vw;
+    margin-top: 5px;
+  }
+  .main .aside {
+    width: 28%;
+  }
+  .main .aside h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .main .aside img {
+    margin-right: 10px;
+    float: left;
+    margin-top: 3px;
+    width: 30%;
+  }
+  .main .aside p {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container .header h2 {
+    font-size: 4.5vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
